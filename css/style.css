@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+div#main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.mon {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 15vh;
+    width: 150px;
+    line-height: 7vh;
+    backdrop-filter: brightness(5) blur(10px);
+    position: relative;
+    top: 180px;
+    left: 400px;
+    transition: .2s;
+}
+#chinh:hover {
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
+-moz-box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
+box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
+}
+.mon_ma {
+    font-weight: bold;
+}
+.icon{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 3vh;
+    height: 3vh;
+    width: 3vh;
+    background-color: white;
+    top: 6vh;
+    cursor: pointer;
+}
+#icon1{
+    left: -1.5vh;
+}
+#icon2{
+    right: -1.5vh;
+}

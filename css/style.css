@@ -6,10 +6,18 @@
 }
 div#main {
     height: 100vh;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/background.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
+}
+#chinh{
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .mon {
     border: 1px solid black;
@@ -18,16 +26,9 @@ div#main {
     height: 15vh;
     width: 150px;
     line-height: 7vh;
-    backdrop-filter: brightness(5) blur(10px);
-    position: relative;
-    top: 180px;
-    left: 400px;
+    background: white;
+    /* backdrop-filter: brightness(5) blur(10px); */
     transition: .2s;
-}
-#chinh:hover {
-    -webkit-box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
--moz-box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
-box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
 }
 .mon_ma {
     font-weight: bold;
@@ -48,4 +49,31 @@ box-shadow: 5px 5px 0px 0px rgba(255,255,255,0.49);
 }
 #icon2{
     right: -1.5vh;
+}
+#tquyet{
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sau{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.an{
+    display: none;
+}
+.title {
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width: 650px){
+    #chinh{
+        top: 10%;
+    }
 }

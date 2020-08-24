@@ -27,7 +27,6 @@ div#main {
     width: 150px;
     line-height: 7vh;
     background: white;
-    /* backdrop-filter: brightness(5) blur(10px); */
     transition: .2s;
 }
 .mon_ma {
@@ -37,18 +36,18 @@ div#main {
     position: absolute;
     border: 1px solid black;
     border-radius: 50%;
-    line-height: 3vh;
-    height: 3vh;
-    width: 3vh;
+    line-height: 1.5vh;
+    height: 1.5vh;
+    width: 1.5vh;
     background-color: white;
-    top: 6vh;
+    top: 3vh;
     cursor: pointer;
 }
 #icon1{
-    left: -1.5vh;
+    left: -1vh;
 }
 #icon2{
-    right: -1.5vh;
+    right: -1vh;
 }
 #tquyet{
     float: left;

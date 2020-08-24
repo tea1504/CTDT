@@ -12,8 +12,8 @@
             <div class="mon">
                 <span class="mon_ma">CT103</span>
                 <p class="mon_ten">Cấu Trúc Dữ Liệu</p>
-                <div class="icon tooltip" id="icon1">+</div>
-                <div class="icon tooltip" id="icon2">+</div>
+                <div class="icon" id="icon1">+</div>
+                <div class="icon" id="icon2">+</div>
             </div>
         </div>
         <div id="tquyet">
